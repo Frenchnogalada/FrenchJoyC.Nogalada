@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f39c12;
+    color: #333;
+}
+
+nav.menu {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+nav .navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .logo h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+nav .logo b {
+    color: #f39c12;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #f39c12;
+    border-radius: 5px;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.auth-buttons button {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+    background-color: #e67e22;
+}
+
+section.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.content-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-left h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content-left p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+.explore-food {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.explore-food:hover {
+    background-color: #e67e22;
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+section.category {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.list-items h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: inline-block;
+    width: 22%;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-list img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-title h1 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.phfood p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.price span {
+    font-size: 1.2rem;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.card-list {
+    padding: 15px;
+}
